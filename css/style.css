@@ -94,3 +94,9 @@ div#works {
 	margin-right: auto;
 	margin-left : auto;
 }
+
+div#works img {
+	width: 50%;
+	margin-right: auto;
+	margin-left : auto;
+}
