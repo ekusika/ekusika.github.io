@@ -91,14 +91,13 @@ video {
 }
 
 div#works {
-	width: 70%;
+	max-width: 90%;
 	margin-right: auto;
 	margin-left : auto;
 }
 
 img {
-	max-width: 95%;
-	height: auto;
+	width: 500px;
 }
 
 #wphoto {
