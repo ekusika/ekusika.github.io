@@ -35,6 +35,10 @@ header {
 .header-margin {
 	padding-top: 90px;
 }
+a img {
+	width: 300px;
+	margin: 0 40px;
+}
 
 h2 {
   color: #2e2e33;
@@ -80,11 +84,6 @@ table td {
 	padding: 3px;
 }
 
-a img {
-	width: 300px;
-	margin: 0 40px;
-}
-
 video {
 	width: 100%;
 	margin-right: auto;
@@ -97,8 +96,10 @@ div#works {
 	margin-left : auto;
 }
 
-#wphoto img {
-	width: 100%;
-	margin-right: auto;
-	margin-left : auto;
+img {
+	width: 500px;
+}
+
+#wphoto {
+	text-align: center;
 }
