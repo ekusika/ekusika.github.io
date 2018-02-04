@@ -12,10 +12,10 @@
             <a class="site-logo okayNav-header__logo" href="#">Ekusika's Portfolio</a>
             <nav role="navigation" id="nav-main" class="okayNav">
                 <ul>
-                    <li><a href="">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contact">Contacts　</a></li>
+                    <li><a href="index.html#portfolio">Portfolio</a></li>
+                    <li><a href="index.html#contact">Contacts　</a></li>
                 </ul>
             </nav>
         </header>
@@ -23,14 +23,7 @@
         <script src="js/jquery.okayNav-min.js"></script>
         <script type="text/javascript">var navigation = $('#nav-main').okayNav();</script>
         <div class="header-margin">
-            <!-- ここはtableに入れるのが一番見やすいかなぁ
-        作品名
-        作品概要
-        使用言語
-        制作時期・製作期間
-        画像・動画
-        その他あれば -->
-            <p id="works">
+            <div id="works">
                 <h2>糸かけ曼荼羅制作ツール</h2>
                 <video src="image/mandala.mp4" autoplay></video>
                 <table>
@@ -40,7 +33,8 @@
                     <tr><td>授業</td><td></td></tr>
                     <tr><td>概要</td><td>糸かけ曼荼羅をコンピュータ上で簡単に再現できるツール</td></tr>
                 </table>
-            </p>
+            </div>
+            <a href="javascript:history.back()">戻る</a>
         </div>
     </body>
 </html>

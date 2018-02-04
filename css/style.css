@@ -86,10 +86,10 @@ img {
 }
 
 video {
-	width: 500px;
+	width: 70%;
 }
 
-p#works {
+div#works {
 	width: 70%;
 	margin-right: auto;
 	margin-left : auto;
