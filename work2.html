@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>ekusika's Portfolio</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/okayNav.min.css">
+    </head>
+	<body>
+        <header id="header" class="okayNav-header">
+            <a class="site-logo okayNav-header__logo" href="#">Ekusika's Portfolio</a>
+            <nav role="navigation" id="nav-main" class="okayNav">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contacts　</a></li>
+                </ul>
+            </nav>
+        </header>
+        <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+        <script src="js/jquery.okayNav-min.js"></script>
+        <script type="text/javascript">var navigation = $('#nav-main').okayNav();</script>
+        <div class="header-margin">
+            <!-- ここはtableに入れるのが一番見やすいかなぁ
+        作品名
+        作品概要
+        使用言語
+        制作時期・製作期間
+        画像・動画
+        その他あれば -->
+            <p id="works">
+                <h2>糸かけ曼荼羅制作ツール</h2>
+                <video src="image/mandala.mp4"></video>
+                <table>
+                    <tr>
+                        <td>使用言語</td><td>Processing</td>
+                        <td>制作時期</td><td>2017年7月</td>
+                        <td>制作期間</td><td>2日間</td>
+                        <td>授業</td><td></td>
+                        <td>概要</td><td>糸かけ曼荼羅をコンピュータ上で簡単に再現できるツール</td>
+                    </tr>
+                </table>
+            </p>
+        </div>
+    </body>
+</html>
